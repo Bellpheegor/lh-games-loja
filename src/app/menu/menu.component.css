@@ -1,0 +1,25 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  img	{
+    height: 50px;
+    width: auto;
+  }
+
+  
+  span{
+    padding: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: gray;
+    transition: color 0.5s;
+  }
+
+  a:hover{
+    text-decoration: none;
+    color: #cc0000;
+ 
+  }
