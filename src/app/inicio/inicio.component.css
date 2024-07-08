@@ -1,5 +1,5 @@
 main {
-    min-height: 900px;
+    min-height: 1900px;
 }
 
 #section-banner{
@@ -17,7 +17,7 @@ h2{
 }
 
 .example-card {
-    max-width: 400px;
+    max-width: 350px;
   }
   
   .example-header-image {
@@ -26,7 +26,7 @@ h2{
   }
   
   mat-grid-list {
-    margin:10px 0px;
+    margin:10px 0px ;
   }
 
   mat-grid-tile{
@@ -46,6 +46,12 @@ h2{
   }
 
   mat-card img{
-    height: 400px;
-    width: 400px;
+    height: 346px;
+    width: 348px;
+    border: 70px black;
+  }
+
+  
+  mat-card{
+    border: 1px solid grey;
   }

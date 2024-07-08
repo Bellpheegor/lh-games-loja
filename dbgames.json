@@ -1,0 +1,32 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "produto": "Castlevania Symphony of the Night",
+      "descricao": "Junte-se a Alucard e enfrente o exército das trevas uma vez mais!",
+      "foto": "jogo1.jpg",
+      "preco": 200
+    },
+    {
+      "id": 2,
+      "produto": "Resident Evil Remake 2",
+      "descricao": "Explore os cantos obscuros de Raccon City,",
+      "foto": "jogo2.jpg",
+      "preco": 150
+    },
+    {
+      "id": 3,
+      "produto": "Elden Ring",
+      "descricao": "Enfrente criaturar mitológicas em busca de se tornar o lorde pristino das terras médias.",
+      "foto": "jogo3.jpg",
+      "preco": 300
+    },
+    {
+      "id": 4,
+      "produto": "Batman Arkham Knight",
+      "descricao": "Encarne o justiceiro das sombras nas ruas de Gotham City!",
+      "foto": "jogo4.png",
+      "preco": 300
+    }
+  ]
+}

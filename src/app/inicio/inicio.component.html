@@ -23,62 +23,26 @@
     </div>
   </section>
   <h2>Destaques</h2>
-  <mat-grid-list cols="3">
-    <mat-grid-tile>
+  <mat-grid-list cols="4">
+    <mat-grid-tile *ngFor="let produto of produtos">
 
       <mat-card class="example-card" appearance="outlined">
-        <img mat-card-image src="./assets/img/jogo1.jpg" alt="gamerimg">
+        <img mat-card-image src="./assets/img/{{produto.foto}}" alt="gamerimg">
 
         <mat-card-header>
-          <mat-card-title>Castlevania Collection!</mat-card-title>
+          <mat-card-title>{{produto.produto}}</mat-card-title>
         </mat-card-header>
         <mat-card-content>
-          <p>Reviva a eterna luta contra as forças das trevas com a coleção de jogos clássicos Castlevania!</p>
+          <p>{{produto.descricao}}</p>
         </mat-card-content>
         <mat-card-actions>
-          <p>R$ 150,00</p>
+          <p>{{produto.preco | currency : 'BRL'}}</p>
           <button mat-button>Comprar</button>
         </mat-card-actions>
       </mat-card>
 
     </mat-grid-tile>
-    <mat-grid-tile>
-
-      <mat-card class="example-card" appearance="outlined">
-        <img mat-card-image src="./assets/img/jogo2.jpg" alt="gamerimg">
-
-        <mat-card-header>
-          <mat-card-title>Resident Evil 2 - Remake</mat-card-title>
-        </mat-card-header>
-        <mat-card-content>
-          <p>Junte-se a Leon e Claire e explore os mistérios de Raccon City!</p>
-        </mat-card-content>
-        <mat-card-actions>
-          <p>R$ 200,00</p>
-          <button mat-button>Comprar</button>
-        </mat-card-actions>
-      </mat-card>
-
-
-    </mat-grid-tile>
-    <mat-grid-tile>
-
-      <mat-card class="example-card" appearance="outlined">
-        <img mat-card-image src="./assets/img/jogo3.jpg" alt="gamerimg">
-
-        <mat-card-header>
-          <mat-card-title>Elden Ring</mat-card-title>
-        </mat-card-header>
-        <mat-card-content>
-          <p>Torne-se o novo lorde das terras médias através da conquista do anel pristino!</p>
-        </mat-card-content>
-        <mat-card-actions>
-          <p>R$ 250,00</p>
-          <button mat-button>Comprar</button>
-        </mat-card-actions>
-      </mat-card>
-
-    </mat-grid-tile>
+ 
   </mat-grid-list>
 
 
