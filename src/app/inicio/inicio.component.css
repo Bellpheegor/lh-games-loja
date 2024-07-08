@@ -16,6 +16,12 @@ h2{
     height: 900px;
 }
 
+#section-cards{
+
+  height: 1000px;
+
+}
+
 .example-card {
     max-width: 350px;
   }
@@ -38,11 +44,15 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: auto;  
+    padding: 3px;
   }
 
   mat-card-actions{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    align-content: center;
   }
 
   mat-card img{
@@ -54,4 +64,13 @@ h2{
   
   mat-card{
     border: 1px solid grey;
+    max-height: 477px;
+    min-height: 477px;
   }
+
+  mat-card-content{
+    margin-bottom: 15px;
+    font-size: 13px;  
+    padding: 1px 15px 1px;
+  }
+
